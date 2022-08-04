@@ -21,7 +21,6 @@ getButton.addEventListener("click", e => {
   e.preventDefault();
   getExchangeRate();
 });
-
 function getExchangeRate() {
   const amount = document.querySelector("form input");
   const exchangeRateTxt = document.querySelector("form .exchange-rate");
